@@ -159,25 +159,103 @@ if (agee < 18) {
   console.log("Adult");
 } else {
   console.log("Senior citizen");
-} 
-
-let numm1 =10;
-let numm2 =20;
-let numm3 =30;
-if(numm1>numm2 && numm1>numm3){
-  console.log("num1 is the largest number."); 
-} else if(numm2>numm1 && numm2>numm3){
-  console.log("num2 is the largest number."); 
-}else{
-  console.log("num3 is the largest number."); 
 }
 
- let numerator=5;
- let denominator=0;
- if(denominator==0){
+let numm1 = 10;
+let numm2 = 20;
+let numm3 = 30;
+if (numm1 > numm2 && numm1 > numm3) {
+  console.log("num1 is the largest number.");
+} else if (numm2 > numm1 && numm2 > numm3) {
+  console.log("num2 is the largest number.");
+} else {
+  console.log("num3 is the largest number.");
+}
+
+let numerator = 5;
+let denominator = 0;
+if (denominator == 0) {
   console.log("not divisiable");
- }else {
+} else {
   console.log("result");
-  let res = numerator / denominator
-console.log(res);
- }
+  let res = numerator / denominator;
+  console.log(res);
+}
+
+let dayOfWeek = 4;
+if (dayOfWeek == "0") {
+  console.log("sunday");
+} else if (dayOfWeek == "1") {
+  console.log("Monday");
+} else if (dayOfWeek == "2") {
+  console.log("Tuesday");
+} else if (dayOfWeek == "3") {
+  console.log("Wednesday");
+} else if (dayOfWeek == "4") {
+  console.log("Thusday");
+} else if (dayOfWeek == "5") {
+  console.log("Friday");
+} else if (dayOfWeek == "6") {
+  console.log("Saturday");
+}
+
+let dayOfWeeks = 5;
+switch (dayOfWeeks) {
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+    console.log("It's a weekday!");
+    break;
+  case 6:
+  case 7:
+    console.log("It's a weekend!");
+    break;
+  default:
+    console.log("Invalid day of the week!");
+}
+
+let dayOfWeekS = 3;
+
+switch (dayOfWeeks) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Invalid day");
+}
+
+let fruits = "apple";
+
+switch (fruits) {
+  case "apple":
+    console.log("It's an apple");
+    break;
+  case "banana":
+    console.log("It's a banana");
+    break;
+  case "orange":
+    console.log("It's an orange");
+    break;
+  default:
+    console.log("Unknown fruit");
+}
