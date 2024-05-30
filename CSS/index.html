@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Registration</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-div">
+    <div class="container">
+        <div class="left">
+            
+        </div>
+        <div class="right">
+            <h2>Registration</h2>
+            <p>Click for your shoot</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="gender">Gender</label>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <label for="dob">Date of Birth</label>
+                <input type="text" id="dob" name="dob">
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country">
+
+                <label for="subscription">Subscription</label>
+                <div class="subscription">
+                    <input type="radio" id="bronze" name="subscription" >
+                    <label for="bronze">Bronze</label>
+                    <input type="radio" id="silver" name="subscription"  checked>
+                    <label for="silver">Silver</label>
+                    <input type="radio" id="gold" name="subscription">
+                    <label for="gold">Gold</label>
+                </div>
+
+                <div class="buttons">
+                    <button type="button" class="cancel">Cancel</button>
+                    <button type="submit" class="confirm">Confirm</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
